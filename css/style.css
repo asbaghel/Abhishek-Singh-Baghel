@@ -200,7 +200,7 @@ footer a:hover
 @media(max-width:560px)
 {
     footer a{
-        display: table-cell;
+        display: block;
         padding:1px;
         
        
