@@ -1,0 +1,212 @@
+html{
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    font-size: 20px;
+}
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    width: 90%;
+    
+}
+h1 , h2,h3{
+    font-family: 'Caveat', cursive;
+}
+h2{
+    font-size: 40px;
+    margin-top: 0;
+
+}
+h1{
+    font-size: 80px;
+}
+.content-wrap{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 60px 50px;
+    min-height:10px;
+    overflow: auto;
+}
+
+header , footer{
+
+    background-color: black;
+    color: rgb(7, 51, 248);
+    margin-top: 20px;
+
+}
+
+footer{
+text-align: center;
+margin-top: 25px;
+margin-bottom: 80px;
+background: linear-gradient(#434343  #000000);
+color: white;
+overflow: visible;
+padding-left: 0;
+padding-right: 0;
+}
+
+footer a{
+    line-height: 50px;
+    text-decoration: none;
+    border:dashed white 0.1px;
+  
+}
+.contact-info a
+{
+    background: black;
+    padding: 10px;
+    color: white;
+}
+
+.education{
+ 
+    background: linear-gradient(blue,violet);
+    margin-top: 25px;
+        
+
+}
+
+.work{
+  
+    background: linear-gradient(orange,yellow);
+    margin-top: 25px;
+
+}
+
+img{
+   border: white solid 10px;
+}
+a{
+    color: brown;
+}
+
+nav a:hover{
+    text-decoration:none;
+    background: whitesmoke;
+    
+}
+
+header h1, header h2 {
+
+    color:blue;
+    margin: 0;
+}
+
+
+nav{
+    text-align: center;
+    background:white;
+    position: fixed;
+    width: 90%;
+    top:0;
+  
+    /* margin-top: 20px; */
+}
+nav a{
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-weight: 700;
+
+
+}
+header{
+    padding-top: 50px;
+    position: relative;
+    margin-top: 100px;
+    background: linear-gradient(#89f7fe,#66a6ff);
+   color:black;
+}
+.btn{
+    text-decoration: none;
+    background: blue;
+    color: white;
+    padding: 10px;
+    display: inline-block;
+}
+.download{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+@media (min-width:900px)
+{
+    .col-narrow
+    {
+        width: 30%;
+        float: left;
+        min-height: 175px;
+        overflow: auto;
+    }
+    .col-wide{
+        width:70%;
+        float: left;
+        padding-left: 15px;
+        min-height: 175px;
+        overflow: auto;
+    }
+}
+
+.profile-img{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+   
+    
+}
+
+@media (max-width:899px){
+    header{
+        text-align: center;
+        margin-top: 200px; 
+    }
+    .profile-img{
+        margin-bottom: 20px;
+    }
+
+
+}
+
+ footer, .work, .education{
+    border:  solid white 1px;
+}
+.education h2{
+    color: white;
+}
+
+@media(max-width:782px)
+{
+   .profile-img{
+       height: 200px;
+       width:200px;
+   }
+}
+
+footer a:hover
+{
+    border:solid white 5px;
+    text-decoration: none;
+}
+@media(max-width:560px)
+{
+    footer a{
+        display: table-cell;
+        padding:1px;
+        
+       
+        text-decoration: none;
+        border:dashed white 0.1px;
+    }
+}
+
+
