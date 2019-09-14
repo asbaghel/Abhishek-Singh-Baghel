@@ -21,6 +21,7 @@ h1 , h2,h3{
 h2{
     font-size: 40px;
     margin-top: 0;
+    margin-bottom: 0px;
 
 }
 h1{
@@ -36,7 +37,7 @@ h1{
 
 header , footer{
 
-    background-color: black;
+    
     color: rgb(7, 51, 248);
     margin-top: 20px;
 
@@ -45,8 +46,8 @@ header , footer{
 footer{
 text-align: center;
 margin-top: 25px;
-margin-bottom: 80px;
-background: linear-gradient(#434343  #000000);
+margin-bottom: 25px;
+background: white
 color: white;
 overflow: visible;
 padding-left: 0;
@@ -56,7 +57,8 @@ padding-right: 0;
 footer a{
     line-height: 50px;
     text-decoration: none;
-    border:dashed white 0.1px;
+    border:solid white 3px;
+    margin: auto;
   
 }
 .contact-info a
@@ -68,7 +70,7 @@ footer a{
 
 .education{
  
-    background: linear-gradient(blue,violet);
+    background: linear-gradient(rgba(57, 57, 221, 0.658),violet);
     margin-top: 25px;
         
 
@@ -196,11 +198,13 @@ footer a:hover
 {
     border:solid white 5px;
     text-decoration: none;
+    margin: auto;
+
 }
 @media(max-width:560px)
 {
     footer a{
-        display: block;
+        display: table-cell;
         padding:1px;
         
        
@@ -208,5 +212,57 @@ footer a:hover
         border:dashed white 0.1px;
     }
 }
+
+.email
+{
+    /* background: whitesmoke; */
+    color: black;
+    display: inline-block;
+    padding: 5px;
+   border: solid white 1px;
+   margin: 10px;
+
+}
+.mobile
+{
+    /* background: whitesmoke; */
+    color: black;
+    display: inline-block;
+    padding: 5px;
+   border: solid white 1px;
+   margin: 10px;
+}
+.link
+{
+    display:inline-block;
+    padding: 10px;
+    margin:10px;
+}
+.locateme
+{
+    margin-bottom: 100px;
+    border: solid blue 1px;
+  
+
+}
+
+footer
+{
+    background-color:rgba(230, 230, 230, 0.678);
+    margin-top: 0;
+    border: none;
+}
+
+.title
+{
+    background-color: white;
+    text-align: center;
+    color: blue;
+    margin-top:25px;
+    height: 80px;
+   
+}
+
+
 
 
