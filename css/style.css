@@ -1,6 +1,9 @@
 html{
     box-sizing: border-box;
-    background-color: whitesmoke;
+    background-color: #f6f7ff;
+    color: #777;
+   
+    font-family: "Open Sans",sans-serif;
     font-size: 20px;
 }
 *,*:before,*:after{
@@ -12,11 +15,16 @@ body
 {
     font-family: 'Open Sans', sans-serif;
     margin: 0 auto;
-    width: 90%;
+
     
 }
+.thatfont
+{
+    font-family: 'Poppins', sans-serif;
+}
 h1 , h2,h3{
-    font-family: 'Caveat', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: black;
 }
 h2{
     font-size: 40px;
@@ -25,7 +33,8 @@ h2{
 
 }
 h1{
-    font-size: 80px;
+    font-size: 55px;
+    font-family: 'Poppins', sans-serif;
 }
 .content-wrap{
     max-width: 1100px;
@@ -33,6 +42,39 @@ h1{
     padding: 60px 50px;
     min-height:10px;
     overflow: auto;
+    
+}
+.left
+{
+    width: 50%;
+    float: left;
+    overflow: auto;
+   
+}
+.right
+{
+    width: 50%;
+    float:left;
+    overflow: auto;
+    
+    
+}
+
+.intro
+{
+    position:relative;
+  
+    width: 70%;
+   
+   
+
+
+}
+header
+{
+    top 0;
+
+
 }
 
 header , footer{
@@ -46,12 +88,21 @@ header , footer{
 footer{
 text-align: center;
 margin-top: 25px;
+position: absolute;
+
+
+
+
+border: 3px solid #73AD21;
 margin-bottom: 25px;
 background: white
 color: white;
 overflow: visible;
 padding-left: 0;
 padding-right: 0;
+widht:70%;
+align-self: right;
+    
 }
 
 footer a{
@@ -61,38 +112,41 @@ footer a{
     margin: auto;
   
 }
-.contact-info a
-{
-    background: black;
-    padding: 10px;
-    color: white;
-}
+
+
 
 .education{
  
-    background: linear-gradient(rgba(57, 57, 221, 0.658),violet);
-    margin-top: 25px;
-        
+    width: 70%;
+    position: relative;
+   
+    
+   
 
 }
 
 .work{
-  
-    background: linear-gradient(orange,yellow);
+    background: white;
     margin-top: 25px;
+    position: relative;
+  width: 70%;
+   
+  
 
 }
 
 img{
    border: white solid 10px;
 }
-a{
-    color: brown;
-}
 
+nav a{
+    color:white;
+    font-weight: 300;
+}
 nav a:hover{
     text-decoration:none;
-    background: whitesmoke;
+    background: white;
+    color: blue;
     
 }
 
@@ -105,15 +159,21 @@ header h1, header h2 {
 
 nav{
     text-align: center;
-    background:white;
+    background:blue;
+    
+    color:white;
     position: fixed;
     width: 90%;
     top:0;
+    z-index:1;
+    margin-left:5%;
+    margin-right:5% ;
   
     /* margin-top: 20px; */
 }
 nav a{
     display: inline-block;
+
     padding: 15px 20px;
     text-decoration:none;
     text-transform: uppercase;
@@ -125,20 +185,23 @@ header{
     padding-top: 50px;
     position: relative;
     margin-top: 100px;
-    background: linear-gradient(#89f7fe,#66a6ff);
+    width: 70%;
+    
+    
    color:black;
 }
 .btn{
     text-decoration: none;
-    background: blue;
+    background: #ffc500;
     color: white;
     padding: 10px;
-    display: inline-block;
+    border-radius: 5%;
+    /* display: inline-block; */
 }
 .download{
     position: absolute;
-    bottom: 0;
-    right: 0;
+    margin-left: 16%;
+   
 }
 
 @media (min-width:900px)
@@ -163,6 +226,9 @@ header{
     width: 250px;
     height: 250px;
     border-radius: 100%;
+   border-color: black;
+   border-width: 2px;
+    
    
     
 }
@@ -183,7 +249,7 @@ header{
     border:  solid white 1px;
 }
 .education h2{
-    color: white;
+    color: black;
 }
 
 @media(max-width:782px)
@@ -213,10 +279,19 @@ footer a:hover
     }
 }
 
+
+.bgline
+{
+    background-color: #f6f7ff;
+    box-shadow: 0px 0px 0px 0px rgba(74,99,231,.2);
+    width:100%;
+    margin-left: 0%;
+    border-radius: 0px;
+}
 .email
 {
     /* background: whitesmoke; */
-    color: black;
+   
     display: inline-block;
     padding: 5px;
    border: solid white 1px;
@@ -226,7 +301,7 @@ footer a:hover
 .mobile
 {
     /* background: whitesmoke; */
-    color: black;
+    
     display: inline-block;
     padding: 5px;
    border: solid white 1px;
@@ -234,14 +309,26 @@ footer a:hover
 }
 .link
 {
-    display:inline-block;
-    padding: 10px;
+    display:inline
+    padding: 5px;
     margin:10px;
+    
+    font-size: 30px;
+    color: white;
 }
+.link:hover
+{
+    background-color: #002afff1;;
+}
+
 .locateme
 {
-    margin-bottom: 100px;
-    border: solid blue 1px;
+  
+    position:relative;
+   
+    width: 70%;
+   
+
   
 
 }
@@ -251,6 +338,21 @@ footer
     background-color:rgba(230, 230, 230, 0.678);
     margin-top: 0;
     border: none;
+    
+}
+#letskeepintouch
+{
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    position:relative;
+    width: 70%;
+    margin-left: 5%;
+        background-color: #4a63e7;
+        opacity: .9;
+        transition: background .3s,border-radius .3s,opacity .3s;
+        color: white;
+    
 }
 
 .title
@@ -261,6 +363,40 @@ footer
     margin-top:25px;
     height: 80px;
    
+}
+
+
+
+section  {
+    
+    position: relative;
+    
+    box-shadow: 15px 6px 13px 5px rgba(74,99,231,.2);
+    padding: 10px;
+    background: white;
+    margin-left: 5%;
+    margin-top: 25px;
+    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+   
+
+  
+   
+    
+    
+  }
+
+  .section-title:after {
+    content: "";
+    background: #ff5959;
+    border-radius: 25px;
+    display: block;
+    height: 5px;
+    margin-top: 14px;
+    width: 100px;
 }
 
 
