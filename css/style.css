@@ -269,6 +269,29 @@ footer a:hover
 }
 @media(max-width:560px)
 {
+    nav
+    {
+        text-align: center;
+        background:blue;
+        
+        color:white;
+        position: fixed;
+        width: 100%;
+        margin-left: 0%;
+        top:0;
+        z-index:1;
+       
+    }
+    nav a{
+        display: inline-block;
+    
+        padding: 10px 10px;
+        text-decoration:none;
+        text-transform: uppercase;
+        font-weight: 100;
+    
+    
+    }
     footer a{
         display: table-cell;
         padding:1px;
@@ -280,23 +303,23 @@ footer a:hover
     .letskeepintouch
     {
 
-        width:100%;
+        width:90%;
     }
 
    .intro{
        position: relative;
-        width:100%;
+        width:90%;
     }
     .locateme{
-        width: 100%;
+        width: 90%;
     }
     .education
     {
-        width: 100%;
+        width: 90%;
     }
     .work
     {
-        width: 100%;
+        width: 90%;
     }
 
    
@@ -350,7 +373,7 @@ footer a:hover
   position: relative;
     
    
-    width: 100%;
+    width: 90%;
    
 
   
@@ -370,7 +393,7 @@ footer
     font-size: 20px;
     text-align: center;
     position:relative;
-    width: 100%;
+    width: 90%;
     margin-left: 5%;
         background-color: #4a63e7;
         opacity: .9;
@@ -398,7 +421,8 @@ section  {
     box-shadow: 15px 6px 13px 5px rgba(74,99,231,.2);
     padding: 10px;
     background: white;
-    margin-left: 5%;
+  margin-left:5%;
+  margin-right:5%;
     margin-top: 25px;
     border-radius: 20px;
     border-top-left-radius: 20px;
