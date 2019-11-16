@@ -277,6 +277,30 @@ footer a:hover
         text-decoration: none;
         border:dashed white 0.1px;
     }
+    .letskeepintouch
+    {
+
+        width:100%;
+    }
+
+   .intro{
+       position: relative;
+        width:100%;
+    }
+    .locateme{
+        width: 100%;
+    }
+    .education
+    {
+        width: 100%;
+    }
+    .work
+    {
+        width: 100%;
+    }
+
+   
+    
 }
 
 
@@ -323,10 +347,10 @@ footer a:hover
 
 .locateme
 {
-  
-    position:relative;
+  position: relative;
+    
    
-    width: 70%;
+    width: 100%;
    
 
   
@@ -343,11 +367,10 @@ footer
 #letskeepintouch
 {
     color:white;
-    text-decoration:none;
     font-size: 20px;
     text-align: center;
     position:relative;
-    width: 70%;
+    width: 100%;
     margin-left: 5%;
         background-color: #4a63e7;
         opacity: .9;
