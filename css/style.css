@@ -63,7 +63,9 @@ h1{
 .intro
 {
     position:relative;
-  
+  margin-left: 15%;
+  margin-right: 15%;
+
     width: 70%;
    
    
@@ -77,7 +79,7 @@ header
 
 }
 
-header , footer{
+header {
 
     
     color: rgb(7, 51, 248);
@@ -86,38 +88,43 @@ header , footer{
 }
 
 footer{
-text-align: center;
+    background-color:black;
+width: 100%;
+height:fit-content;
+
+    margin: 0 auto;
+    padding: 60px 50px;
+    min-height:10px;
+    /* overflow: auto; */
+
+
 margin-top: 25px;
 position: absolute;
+color:whitesmoke;
 
 
 
 
-border: 3px solid #73AD21;
-margin-bottom: 25px;
-background: white
-color: white;
-overflow: visible;
-padding-left: 0;
-padding-right: 0;
-widht:70%;
-align-self: right;
-    
 }
 
-footer a{
-    line-height: 50px;
-    text-decoration: none;
-    border:solid white 3px;
-    margin: auto;
-  
+footer text{
+    margin-top:5%;
+    color: #777;
+    margin-left: 5%;
+    font-family: poppins,sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.625em;
 }
+
+
 
 
 
 .education{
  
     width: 70%;
+    margin-left: 15%;
     position: relative;
    
     
@@ -129,6 +136,7 @@ footer a{
     background: white;
     margin-top: 25px;
     position: relative;
+    margin-left: 15%;
   width: 70%;
    
   
@@ -163,11 +171,12 @@ nav{
     
     color:white;
     position: fixed;
-    width: 90%;
+    width: 100%;
     top:0;
     z-index:1;
-    margin-left:5%;
-    margin-right:5% ;
+    margin-left:0%;
+    margin-right:0% ;
+
   
     /* margin-top: 20px; */
 }
@@ -245,7 +254,7 @@ header{
 
 }
 
- footer, .work, .education{
+  .work, .education{
     border:  solid white 1px;
 }
 .education h2{
@@ -260,17 +269,12 @@ header{
    }
 }
 
-footer a:hover
-{
-    border:solid white 5px;
-    text-decoration: none;
-    margin: auto;
 
-}
 @media(max-width:560px)
 {
     nav
     {
+       
         text-align: center;
         background:blue;
         
@@ -280,7 +284,26 @@ footer a:hover
         margin-left: 0%;
         top:0;
         z-index:1;
+        height: fit-content;
        
+    }
+    footer {
+        background-color: black;
+       
+        height: fit-content;
+        margin: 0 auto;
+        padding: 60px 50px;
+        min-height: 10px;
+        max-width: 100%;
+        overflow: auto;
+       
+        margin-top: 25px;
+        position: absolute;
+        color: whitesmoke;
+    }
+    font {
+overflow: auto;
+max-width: 100%;
     }
     nav a{
         display: inline-block;
@@ -292,34 +315,34 @@ footer a:hover
     
     
     }
-    footer a{
-        display: table-cell;
-        padding:1px;
-        
-       
-        text-decoration: none;
-        border:dashed white 0.1px;
-    }
+    
     .letskeepintouch
     {
 
         width:90%;
+        
+       
     }
 
    .intro{
        position: relative;
         width:90%;
+        margin-left: 5%;
     }
     .locateme{
         width: 90%;
+        margin-left: 5%;
+       
     }
     .education
     {
         width: 90%;
+        margin-left: 5%;
     }
     .work
     {
         width: 90%;
+        margin-left: 5%;
     }
 
    
@@ -373,20 +396,15 @@ footer a:hover
   position: relative;
     
    
-    width: 90%;
+    width: 70%;
+    margin-left: 15%;
    
 
   
 
 }
 
-footer
-{
-    background-color:rgba(230, 230, 230, 0.678);
-    margin-top: 0;
-    border: none;
-    
-}
+
 #letskeepintouch
 {
     color:white;
@@ -447,6 +465,8 @@ section  {
     width: 100px;
 }
 
-
-
+.far fa-envelope
+{
+  font-size: 100px;
+}
 
